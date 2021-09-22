@@ -1,0 +1,19 @@
+{
+  "name": "node-jenkins-app-example",
+  "version": "0.0.1",
+  "description": "Simple Hello World demo app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  },
+  "author": "kashif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
